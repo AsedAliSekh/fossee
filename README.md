@@ -1,8 +1,8 @@
-# [National Level Open Hardware-IoT Geospatial Hackathon UI Clone]
+# National Level Open Hardware-IoT Geospatial Hackathon UI Clone, FOSSEE Fellowship
 
 ## Description
 
-National Level Open Hardware-IoT Geospatial Hackathon UI Clone is a web application built using Astro Js. It aims to Convert this static website into the Astro framework while utilizing Astro's components and layout features.e .
+National Level Open Hardware-IoT Geospatial Hackathon UI Clone is a web application built using Astro Js. It aims to Convert this static website into the Astro framework while utilizing Astro's components and layout features. It is a screening task of FOSSEE Summer Fellowship 2024 - Web Development programme.
 
 ## Table of Contents
 
