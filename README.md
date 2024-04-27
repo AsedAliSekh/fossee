@@ -8,7 +8,7 @@ National Level Open Hardware-IoT Geospatial Hackathon UI Clone is a web applicat
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Live Demo](#Live Demo)
+- [Live-Demo](#Live-Demo)
 
 ## Installation
 
@@ -28,10 +28,12 @@ To run this project locally, follow these steps:
 
 To start the local development server, use the following command:
 ```bash
-npm run dev
-
+   npm install
+```
 Once the server is running, you can access the application at `http://localhost:4321` in your web browser.
 
-## Live Demo
+## Live-Demo
+Live Demo public URL which is host on Netlify
 https://fosseescreeningtest.netlify.app/
+
 
