@@ -1,0 +1,50 @@
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <nav class="overflow-x-hidden bg-zinc-100 px-4 py-2 sticky top-0 w-full z-10">
+    <div class="flex justify-center">
+      <!-- Nav links -->
+      <div class="nav_link flex space-x-0 max-md:hidden max-md:grid max-md:w-full">
+        <a href="#" class="px-7 py-2 text-blue-700 hover:text-white hover:bg-blue-800 font-medium">Home</a>
+        <a href="#" class="px-7 py-2 text-blue-700 hover:text-white hover:bg-blue-800 font-medium">About</a>
+        <a href="#" class="px-7 py-2 text-blue-700 hover:text-white hover:bg-blue-800 font-medium">Resources</a>
+        <a href="#" class="px-7 py-2 text-blue-700 hover:text-white hover:bg-blue-800 font-medium">Schedule</a>
+        <a href="#" class="px-7 py-2 text-blue-700 hover:text-white hover:bg-blue-800 font-medium">Register</a>
+        <a href="#" class="px-7 py-2 text-blue-700 hover:text-white hover:bg-blue-800 font-medium">Partners</a>
+        <a href="#" class="px-7 py-2 text-blue-700 hover:text-white hover:bg-blue-800 font-medium">Contact Us</a>
+      </div>
+
+      <!-- Responsive toggle button (for smaller devices) -->
+      <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+        <ion-icon class="menu absolute inset-y-0 right-0 text-orange-600" name="menu"></ion-icon>
+      </span>
+      
+    </div>
+  </nav>
+
+
+<script>
+  // Find all buttons with the class on the page.
+  const menu_buttons = document.querySelectorAll('.menu');
+  const nav_link = document.querySelectorAll('.nav_link');
+
+  // Handle clicks on each button.
+  menu_buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+
+      if(button.name == 'menu'){
+        button.name = 'close';
+        nav_link.forEach((link)=>{
+          link.classList.remove('max-md:hidden');
+        })
+      }else{
+        button.name = 'menu';
+        nav_link.forEach((link)=>{
+          link.classList.add('max-md:hidden');
+        })
+      }
+    });
+  });
+  
+</script>
