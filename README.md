@@ -1,15 +1,14 @@
-# [Project Name]
+# [National Level Open Hardware-IoT Geospatial Hackathon UI Clone]
 
 ## Description
 
-[Project Name] is a web application built using Astro Js. It aims to [brief description of what the application does].
+National Level Open Hardware-IoT Geospatial Hackathon UI Clone is a web application built using Astro Js. It aims to Convert this static website into the Astro framework while utilizing Astro's components and layout features.e .
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Live Demo](#Live Demo)
 
 ## Installation
 
@@ -26,6 +25,13 @@ To run this project locally, follow these steps:
    npm install
 
 ## Usage
+
 To start the local development server, use the following command:
 ```bash
-npm start
+npm run dev
+
+Once the server is running, you can access the application at `http://localhost:4321` in your web browser.
+
+## Live Demo
+https://fosseescreeningtest.netlify.app/
+
