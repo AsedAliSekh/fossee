@@ -1,0 +1,88 @@
+<div class="wrapper">
+    <div class="slider">
+        <div class="slide-track">
+            <!-- Img Code -->
+            <div class="slide">
+                <img src="./logos/fossee-logo.png" />
+            </div>
+            <div class="slide">
+                <img src="./logos/icfoss-logo.png" />
+            </div>
+            <div class="slide">
+                <img src="./logos/iit-tirupati.png" />
+            </div>
+            <div class="slide">
+                <img src="./logos/iitb-logo.png" />
+            </div>
+            <div class="slide">
+                <img src="./logos/navavishkaar.png" />
+            </div>
+            <div class="slide">
+                <img src="./logos/NM-ICPS-logo1.png" />
+            </div>
+            <div class="slide">
+                <img src="./logos/nmeict-logo.png" />
+            </div>
+            <div class="slide">
+                <img src="./logos/rudra-logo.png" />
+            </div>
+            <div class="slide">
+                <img src="./logos/st-logo.png" />
+            </div>
+            <!-- Img Code End -->
+        </div>
+    </div>
+</div>
+
+<style>
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider {
+        height: 110px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: 95%;
+    }
+
+    .slider .slide-track {
+        -webkit-animation: scroll 30s linear infinite;
+        animation: scroll 30s linear infinite;
+        display: flex;
+        width: calc(250px * 14);
+    }
+
+    .slider .slide {
+        height: 100px;
+        width: 250px;
+    }
+   
+    .slider .slide img {
+        width: 80%;
+        height: 100px;
+        border-radius: 10px;
+        border: 2px solid #bbbbbb;
+    }
+
+    @-webkit-keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-250px * 7));
+        }
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        95% {
+            transform: translateX(calc(-250px * 7));
+        }
+    }
+</style>
